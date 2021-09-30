@@ -42,14 +42,14 @@ export default {
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    baseURL: 'http://localhost:8000',
+    baseURL: 'https://api-lar.herokuapp.com/',
     credentials: true
   },
   auth: {
     strategies: {
       'laravelSanctum': {
         provider: 'laravel/sanctum',
-        url: 'http://localhost:8000',
+        url: 'https://api-lar.herokuapp.com/',
         endpoints: {
           login: {
             url: '/login'
