@@ -6,6 +6,7 @@
       method="post"
     >
       {{ csrf_field }}
+      @csrf
       <div class="flex flex-col mt-3" v-if="errors">
         <span class="text-red-200 italic">{{ errors }}</span>
       </div>

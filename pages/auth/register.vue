@@ -6,6 +6,7 @@
       method="post"
     >
       {{ csrf_field }}
+      @csrf
       <div class="flex flex-col mt-3">
         <input
           type="text"
