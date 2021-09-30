@@ -5,6 +5,7 @@
       class="bg-green-500 rounded mx-auto px-6 py-6 w-1/2"
       method="post"
     >
+      {{ csrf_field }}
       <div class="flex flex-col mt-3">
         <input
           type="text"
